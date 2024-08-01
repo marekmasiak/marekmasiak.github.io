@@ -11,13 +11,43 @@ redirect_from:
 
 Education
 ======
-* September 2020 - Present: BSc Computer Science, University College London
+* September 2023 - Presemt: MSc in Advanced Computer Science, University of Oxford
+
+* September 2020 - July 2023: BSc Computer Science, University College London
+  * First Class Honours (4.0 GPA equivalent), Average: 81.79%
+
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Awards
+======
+* Area Chair Award, IJCNLP-AACL
+
+* Best Paper Award, ICLR AfricaNLP workshop
+
+* First Prize Award, Innovation Award, Asia Student Supercomputer Challenge 20-21
+
+Research experience
+======
+* February 2024 - March 2024: Visiting Student / Research Intern, University of Cambridge, Department of Applied Mathematics and Theoretical Physics
+  * Researched Inverse Reinforcement Learning, RL, and LLMs in the van der Schaar Lab. 
+  * Implemented a neural system for an Imitation Learning problem.
+
+* July 2022 - September 2022: Summer Research Intern, University College London, Department of Computer Science
+  * Conducted research into commonsense reasoning capabilities of Large Language Models and their implicit knowledge. 
+  * Created a semantic knowledge graph based on knowledge from GPT-3 generated text.
+
+* July 2019 – February 2020: Summer Research Intern, Interdisciplinary Centre for Mathematical and Computational Modelling UW Warsaw
+  * Researched computational optimizations for linear algebra algorithms, such as matrix-matrix multiplication
+  * Implemented an algorithm ∼9 times faster at multiplying 1000x1000 matrix on 8 cores than the classic algorithm
+  * Technologies in use: C++, MPI (Open MPI), Slurm
 
 Work experience
 ======
-* April 2020 – Present: Co-Founder & Chief Technology Officer, Calmsie
-  * Participated in the creation of a platform combining telemedicine panel, medical chatbot and recommendation system for mental health support as a fullstack developer from day one
-  * Designed the initial architecture of the platform and developed API, web platform and mobile application prototypes
+* July 2023 - September 2023: TechOps Engineer Intern, Jump Trading
 
 * February 2020 – September 2020: Software Developer, Interdisciplinary Centre for Mathematical and Computational Modelling UW
   * Designed and developed a web platform using Django and Bootstrap for tracking the consumption of resources
@@ -26,10 +56,6 @@ and automating computing grants proposal submission
 their accounts
   * Technologies in use: Python, Django, jQuery, Bootstrap, nginx
 
-* July 2019 – February 2020: Summer Research Intern, Interdisciplinary Centre for Mathematical and Computational Modelling UW Warsaw
-  * Researched computational optimizations for linear algebra algorithms, such as matrix-matrix multiplication
-  * Implemented an algorithm ∼9 times faster at multiplying 1000x1000 matrix on 8 cores than the classic algorithm
-  * Technologies in use: C++, MPI (Open MPI), Slurm
 
   
 <!-- Skills
@@ -41,11 +67,6 @@ their accounts
   * Sub-skill 2.3
 * Skill 3 -->
 
-<!-- Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
   
 Talks
 ======
