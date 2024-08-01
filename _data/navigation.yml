@@ -1,10 +1,10 @@
 # main links links
 main:
-  - title: "Talks"
-    url: /talks/    
+  # - title: "Talks"
+  #   url: /talks/    
 
-  - title: "Tutorials"
-    url: /tutorials/    
+  # - title: "Tutorials"
+  #   url: /tutorials/    
     
   - title: "Publications"
     url: /publications/
@@ -16,8 +16,8 @@ main:
   #   url: /year-archive/
     
 
-  - title: "Academic activities"
-    url: /activities/
+  # - title: "Academic activities"
+  #   url: /activities/
 
   - title: "Resume"
     url: /resume/
